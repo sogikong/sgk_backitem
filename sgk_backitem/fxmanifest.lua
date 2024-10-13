@@ -1,14 +1,10 @@
-fx_version "adamant"
+fx_version 'cerulean'
+games { 'gta5' }
 
-games { 'gta5'}
+author 'SGK_SCRIPTS'
+description 'A simple script for displaying items on the back'
+version '1.0.0'
 lua54 'yes'
-use_experimental_fxv2_oal 'yes'
-
-shared_script '@ox_lib/init.lua'
-client_scripts {
-	'config.lua',
-	'components.lua',
-	'client/main.lua',
 }
 
 server_scripts {
